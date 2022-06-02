@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diaradio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <script src="https://kit.fontawesome.com/771ab14ec7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url('images/background.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .block{
+            background-image: url(images/papel.png);
+        }
+    </style>
+    <div class="navmenu">
+        <ul class="">
+            &nbsp;&nbsp;
+            <li><a href="#">Home</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="#">Página de Fans</a></li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <li><a href="#">Curtidas</a></li> 
+        </ul>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <div class="musicname">
+                <h1>GOD IS A WOMAN</h1>
+            </div>
+            <div class="radio">
+                <img style="width: 520px;" src="images/logo.png" alt="">
+                <p>92.3FM</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="player">
+                <div class="playerimg">
+                    <img src="images/capa.png" alt="">  
+                </div>
+                <div class="playermenu">
+                    <audio id="podcast-audio">
+                        <source src="audio/Ariana Grande - God is a woman.mp3" type="audio/mp4">
+                    </audio>
+                    <div class="player-ctrl">
+                        <i class="fa-solid fa-volume-high"></i>
+                        <i class="fa-solid fa-backward-step"></i>
+                        <a id="podcast-play" onclick="playShow()"><i class="ion-ios-play"></i></a>
+                        <a id="podcast-pause" onclick="pauseShow()" style="display: none;"><i class="ion-ios-pause"></i></a>
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-solid fa-repeat"></i>
+    
+                    </div>
+                </div>
+            </div>
+            
+            <div class="description">
+                <div class="block">
+                    <div class="line">
+                        <h2>LISTEN TO: </h2>
+                        <p> &nbsp; GOD IS A WOMAN</p>
+                    </div>
+                    <div class="line">
+                        <h2>SINGER: </h2>
+                        <p> &nbsp; ARIANA GRANDE</p>
+                    </div>
+                    <div class="line">
+                        <h2>ALBUM: </h2>
+                        <p> &nbsp; SWEETNER</p>
+                    </div>
+                    <div class="line">
+                        <h2>GENERO: </h2>
+                        <p> &nbsp; POP, HIP HOP</p>
+                    </div>
+                    <div class="line">
+                        <h2>DATE: </h2>
+                        <p> &nbsp; 13 DE JULHO DE 2018</p>
+                    </div>
+                    <div class="line">
+                        <h2>NEXT SONG: </h2>
+                        <p> &nbsp; EVERYTIME - ARIANA GRANDE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

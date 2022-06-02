@@ -1,0 +1,178 @@
+/*Criação da fonte e padronização de espaçamento*/
+@font-face {
+    font-family: title;
+    src: url(FontsFree-Net-Dream-Avenue.ttf);
+  }
+  @font-face {
+    font-family: content;
+    src: url(coolvetica\ rg.otf);
+  }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Criação do conteiner, navbar, player e content*/
+.navmenu{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navmenu li{
+    padding-left: 15px;
+}
+.navmenu ul, a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    font-family: 'title';
+    font-size: 30px;
+    text-shadow:  0 0 1vw white, 0 0 20vw white;
+}
+.navmenu a:hover{
+    text-decoration: underline;
+
+}
+.container {
+    height: 80vh;
+    width: 85vw;
+}
+.navbar {
+    font-family: 'title';
+    height: 15%;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h1{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+}
+.navbar img{
+    margin-top: -125px;
+    margin-right: -50px;
+    margin-bottom: -125px;
+    max-width: 300px;
+}
+.navbar p{
+    color: white;
+    font-size: 25px;
+    text-shadow:  0 0 2vw white, 0 0 2vw white;
+
+}
+.radio{
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    height: 85%;
+    width: 100%;
+}
+.line{
+    display: flex;
+    padding-bottom: 20px;
+}
+.line h2{
+    font-family: 'title';
+    color: palevioletred;
+    font-size: 30px;
+}
+.line p{
+    font-family: 'content';
+    color: white;
+    font-size: 30px;
+}
+.player {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Estilização individual*/
+.player img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.playermenu{
+    padding-top: 20px;
+}
+
+.description {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    padding-left: 10px;
+    height: 90%;
+    width: 70%;
+    border: 6px dotted white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.player-ctrl {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+i{
+    color: white;
+    font-size: 20px;
+}
+
+.ion-ios-play {
+    font-size: 25px;
+    color: white;
+}
+
+.ion-ios-pause {
+    font-size: 25px;
+    color: white;
+}
+
+.content a {
+    border: 2px solid white;
+    border-radius: 64px;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#podcast-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#podcast-pause {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
